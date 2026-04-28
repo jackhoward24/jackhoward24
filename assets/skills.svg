@@ -1,0 +1,71 @@
+<svg width="720" height="195" viewBox="0 0 720 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .pct  { font-size: 14px; font-weight: 700; fill: #e6edf3; text-anchor: middle; dominant-baseline: middle; }
+    .grade{ font-size: 10px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; }
+    .name { font-size: 11px; font-weight: 600; fill: #c9d1d9; text-anchor: middle; }
+    .sub  { font-size: 9px;  fill: #8b949e; text-anchor: middle; }
+    .title{ font-size: 11px; font-weight: 600; fill: #8b949e; text-anchor: middle; letter-spacing: 2; }
+  </style>
+
+  <!-- Card background -->
+  <rect width="720" height="195" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Section title -->
+  <text x="360" y="20" class="title">SKILLS OVERVIEW</text>
+
+  <!-- ── Circle 1: Java / Spring  90% ── -->
+  <circle cx="72"  cy="103" r="52" stroke="#30363d" stroke-width="8"/>
+  <!-- 2π×52 = 326.73 ; 90% → 294.06 -->
+  <circle cx="72"  cy="103" r="52" stroke="#F89820" stroke-width="8"
+          stroke-dasharray="294.06 326.73" stroke-linecap="round"
+          transform="rotate(-90 72 103)"/>
+  <text x="72"  y="100" class="pct">90%</text>
+  <text x="72"  y="116" class="grade" fill="#F89820">A+</text>
+  <text x="72"  y="168" class="name">Java</text>
+  <text x="72"  y="181" class="sub">Spring Framework</text>
+
+  <!-- ── Circle 2: Python / FastAPI  75% ── -->
+  <circle cx="216" cy="103" r="52" stroke="#30363d" stroke-width="8"/>
+  <!-- 75% → 245.05 -->
+  <circle cx="216" cy="103" r="52" stroke="#4584B6" stroke-width="8"
+          stroke-dasharray="245.05 326.73" stroke-linecap="round"
+          transform="rotate(-90 216 103)"/>
+  <text x="216" y="100" class="pct">75%</text>
+  <text x="216" y="116" class="grade" fill="#4584B6">A</text>
+  <text x="216" y="168" class="name">Python</text>
+  <text x="216" y="181" class="sub">FastAPI</text>
+
+  <!-- ── Circle 3: AI Coding Tools  85% ── -->
+  <circle cx="360" cy="103" r="52" stroke="#30363d" stroke-width="8"/>
+  <!-- 85% → 277.72 -->
+  <circle cx="360" cy="103" r="52" stroke="#A855F7" stroke-width="8"
+          stroke-dasharray="277.72 326.73" stroke-linecap="round"
+          transform="rotate(-90 360 103)"/>
+  <text x="360" y="100" class="pct">85%</text>
+  <text x="360" y="116" class="grade" fill="#A855F7">A+</text>
+  <text x="360" y="168" class="name">AI Coding Tools</text>
+  <text x="360" y="181" class="sub">Claude · Cursor · OpenCode</text>
+
+  <!-- ── Circle 4: DevOps  70% ── -->
+  <circle cx="504" cy="103" r="52" stroke="#30363d" stroke-width="8"/>
+  <!-- 70% → 228.71 -->
+  <circle cx="504" cy="103" r="52" stroke="#2496ED" stroke-width="8"
+          stroke-dasharray="228.71 326.73" stroke-linecap="round"
+          transform="rotate(-90 504 103)"/>
+  <text x="504" y="100" class="pct">70%</text>
+  <text x="504" y="116" class="grade" fill="#2496ED">A</text>
+  <text x="504" y="168" class="name">DevOps</text>
+  <text x="504" y="181" class="sub">Docker · Kubernetes</text>
+
+  <!-- ── Circle 5: Agent / RAG  65% ── -->
+  <circle cx="648" cy="103" r="52" stroke="#30363d" stroke-width="8"/>
+  <!-- 65% → 212.37 -->
+  <circle cx="648" cy="103" r="52" stroke="#10B981" stroke-width="8"
+          stroke-dasharray="212.37 326.73" stroke-linecap="round"
+          transform="rotate(-90 648 103)"/>
+  <text x="648" y="100" class="pct">65%</text>
+  <text x="648" y="116" class="grade" fill="#10B981">B+</text>
+  <text x="648" y="168" class="name">Agent / RAG</text>
+  <text x="648" y="181" class="sub">LangChain · LlamaIndex</text>
+</svg>
