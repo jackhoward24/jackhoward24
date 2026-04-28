@@ -89,12 +89,4 @@ I'm an **AI Coding & Agent developer** passionate about building intelligent dev
 
 ## 📫 Contact | 联系方式
 
-> 🚧 *Contact information coming soon · 联系方式即将更新*
-
----
-
-<div align="center">
-
-*Profile last updated · 最后更新：2025-04*
-
-</div>
+> 📫 2361485765@qq.com
